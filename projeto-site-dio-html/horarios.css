@@ -1,0 +1,54 @@
+html,
+body {
+  margin: 0;
+}
+body {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  margin: 0 auto;
+  background-color: aquamarine;
+}
+.main {
+  display: flex;
+  flex-flow: column;
+  width: 85%;
+}
+.menu {
+  width: 15%;
+  background-color: aqua;
+  padding: 10px 20px 0px;
+  background-image: url(imagens/banners-verticais-isometrica-de-odontologia_1284-14244.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
+  text-align: center;
+  background-color: rgb(184, 199, 199);
+  min-height: 170px;
+  background-image: url(imagens/);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.content {
+  background-color: white;
+  min-height: 350px;
+  padding: 20px;
+  color: white;
+  background-image: url(imagens/banners-verticais-isometrica-de-odontologia_1284-14244.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h2 {
+  text-align: center;
+}
+.footer {
+  background-color: rgb(99, 56, 240);
+  min-height: 150px;
+}
